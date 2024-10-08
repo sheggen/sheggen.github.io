@@ -1,0 +1,37 @@
+/*  Project - Analyses - Benchmarks - Dashboard - [Palette] */
+@import url('../../comp/project-analyses/view101b.css');
+
+div.comp-g-video {
+    display: none;
+}
+div.comp-g-note {
+    display: none;
+}
+
+
+@media print {
+
+    div.comp-g-note {
+        display: block;
+    }
+
+
+    div.view101b > div.head {
+        display: none;
+    }
+    div.view101b > div.body > div.chart > div.results {
+        padding-bottom: 0;
+    }
+    div.view101b.ags01 div.body div.chart table tr.head.row1 td:nth-child(14),
+    div.view101b.ags02 div.body div.chart table tr.head.row1 td:nth-child(15) {
+        border-right: none;
+    }
+
+    #view101b {
+        page-break-inside: avoid;
+    }
+    #view101b-clone {
+        page-break-inside: avoid;
+    }
+
+}

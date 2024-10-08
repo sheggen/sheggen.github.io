@@ -1,0 +1,17 @@
+/*  Project - Analyses - Benchmarks - By Divisions */
+@import url('../../comp/project-analyses/view104b.css');
+
+
+div.comp-g-video {
+    display: none;
+}
+div.comp-g-note {
+    display: none;
+}
+
+
+@media print {
+    #view104b div.tbarBlock a.control {
+        visibility: hidden;
+    }
+}

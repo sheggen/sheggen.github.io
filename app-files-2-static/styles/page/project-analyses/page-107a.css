@@ -1,0 +1,38 @@
+/* Project - Analyses - Themes - Demographic/Discipline Dashboard */
+@import url('../../comp/project-analyses/view117b.css');
+
+div.comp-g-video {
+    display: none;
+}
+div.comp-g-note {
+    display: none;
+}
+
+
+@media print {
+
+    div.comp-g-note {
+        display: block;
+        margin-bottom: 2em;
+    }
+
+
+    div.view117b > div.head {
+        display: none;
+    }
+    div.view117b > div.body > div.chart > div.results {
+        padding-bottom: 0;
+    }
+    div.view117b.ags01 div.body div.chart table tr.head.row1 td:nth-child(14),
+    div.view117b.ags02 div.body div.chart table tr.head.row1 td:nth-child(15) {
+        border-right: none;
+    }
+
+    #view117b {
+        page-break-inside: avoid;
+    }
+    #view117b-clone {
+        page-break-inside: avoid;
+    }
+
+}

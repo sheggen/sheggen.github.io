@@ -1,0 +1,37 @@
+/* Project - Analyses - Themes - [Theme] - Additional */
+@import url('../../comp/project-analyses/view114b.css');
+@import url('../../comp/project-analyses/view116.css');
+
+
+div.comp.theme-i {
+    margin-bottom: 45px;
+}
+
+@media print {
+
+    div.view114b {
+        page-break-inside: avoid;
+    }
+    div.view114b {
+        page-break-inside: avoid;
+    }
+
+    #view114b_Q235,
+    #view114b_Q260 {
+        margin-bottom: 15px;
+    }
+
+    #view114b_Q235-clone div.head,
+    #view114b_Q260-clone div.head {
+        display: none;
+    }
+
+    #view114b_Q260 {
+        page-break-before: always;
+    }
+
+    #view114b_Q260-clone {
+        page-break-after: always;
+    }
+
+}
